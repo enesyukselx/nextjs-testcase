@@ -1,0 +1,21 @@
+.list {
+    padding: calc(2.4rem + 68px) 1.6rem 0 1.6rem;
+
+    p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 700;
+        margin-bottom: 1.6rem;
+    }
+}
+
+.modal {
+    height: 100vh;
+    background-color: #ffcc33;
+
+    //center the modal
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
